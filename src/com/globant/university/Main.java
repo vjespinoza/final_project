@@ -524,7 +524,7 @@ public class Main {
         } else if (!goBack){
             System.out.println(foundCourse);
             for (Student s : foundCourse.getCourseStudents()) {
-                System.out.println("\t* " + s.getStudentID() + " - " + s.getLastName() + ", " + s.getLastName());
+                System.out.println("\t* " + s.getStudentID() + " - " + s.getLastName() + ", " + s.getFirstName());
 
             }
 
